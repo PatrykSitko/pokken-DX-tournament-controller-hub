@@ -1,0 +1,46 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-eval": 0,
+    "linebreak-style": ["error", "unix"],
+    "object-curly-newline": 0,
+    "operator-linebreak": 0,
+    "react/prop-types": 0,
+    "react/no-find-dom-node": 0,
+    "react/jsx-props-no-spreading": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "react/jsx-one-expression-per-line": [0, { "allow": "none" }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "implicit-arrow-linebreak": 0,
+    "global-require": 0,
+    "react/jsx-curly-newline": 0,
+    "no-const-assign": "warn",
+    "no-this-before-super": "warn",
+    "no-undef": "warn",
+    "no-continue": "off",
+    "no-unreachable": "warn",
+    "no-unused-vars": "warn",
+    "constructor-super": "warn",
+    "valid-typeof": "warn",
+    "quotes": [0, "double"],
+    "semi": [1, "always"],
+    "no-shadow": 0,
+    "default-case": 0
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": ["react", "jsx-a11y", "import"]
+}

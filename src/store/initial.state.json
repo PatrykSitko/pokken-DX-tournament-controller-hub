@@ -1,0 +1,105 @@
+{
+  "state": {
+    "title": "Pokken DX Tournament Controller Hub",
+    "window": {
+      "inner": null,
+      "outer": null
+    },
+    "GUUID": null,
+    "selected-controller-id": 0,
+    "controller": {
+      "supported": { "idVendor": 3853, "idProduct": 146, "revisions": [256] },
+      "buttonMapping": null
+    },
+    "controller-1": {
+      "id": 0,
+      "name": "controller 1",
+      "connected": false,
+      "schema": {
+        "l": { "pressed": false, "mapping": "o" },
+        "r": { "pressed": false, "mapping": "p" },
+        "zl": { "pressed": false, "mapping": "l" },
+        "zr": { "pressed": false, "mapping": ";" },
+        "a": { "pressed": false, "mapping": "j" },
+        "b": { "pressed": false, "mapping": "k" },
+        "y": { "pressed": false, "mapping": "i" },
+        "x": { "pressed": false, "mapping": "u" },
+        "select": { "pressed": false, "mapping": "1" },
+        "start": { "pressed": false, "mapping": "tab" },
+        "up": { "pressed": false, "mapping": "w" },
+        "down": { "pressed": false, "mapping": "s" },
+        "left": { "pressed": false, "mapping": "a" },
+        "right": { "pressed": false, "mapping": "d" }
+      }
+    },
+    "controller-2": {
+      "id": 1,
+      "name": "controller 2",
+      "connected": false,
+      "schema": {
+        "l": { "pressed": false, "mapping": "o" },
+        "r": { "pressed": false, "mapping": "p" },
+        "zl": { "pressed": false, "mapping": "l" },
+        "zr": { "pressed": false, "mapping": ";" },
+        "a": { "pressed": false, "mapping": "j" },
+        "b": { "pressed": false, "mapping": "k" },
+        "y": { "pressed": false, "mapping": "i" },
+        "x": { "pressed": false, "mapping": "u" },
+        "select": { "pressed": false, "mapping": "1" },
+        "start": { "pressed": false, "mapping": "tab" },
+        "up": { "pressed": false, "mapping": "w" },
+        "down": { "pressed": false, "mapping": "s" },
+        "left": { "pressed": false, "mapping": "a" },
+        "right": { "pressed": false, "mapping": "d" }
+      }
+    },
+    "controller-3": {
+      "id": 2,
+      "name": "controller 3",
+      "connected": false,
+      "schema": {
+        "l": { "pressed": false, "mapping": "o" },
+        "r": { "pressed": false, "mapping": "p" },
+        "zl": { "pressed": false, "mapping": "l" },
+        "zr": { "pressed": false, "mapping": ";" },
+        "a": { "pressed": false, "mapping": "j" },
+        "b": { "pressed": false, "mapping": "k" },
+        "y": { "pressed": false, "mapping": "i" },
+        "x": { "pressed": false, "mapping": "u" },
+        "select": { "pressed": false, "mapping": "1" },
+        "start": { "pressed": false, "mapping": "tab" },
+        "up": { "pressed": false, "mapping": "w" },
+        "down": { "pressed": false, "mapping": "s" },
+        "left": { "pressed": false, "mapping": "a" },
+        "right": { "pressed": false, "mapping": "d" }
+      }
+    },
+    "controller-4": {
+      "id": 3,
+      "name": "controller 4",
+      "connected": false,
+      "schema": {
+        "l": { "pressed": false, "mapping": "o" },
+        "r": { "pressed": false, "mapping": "p" },
+        "zl": { "pressed": false, "mapping": "l" },
+        "zr": { "pressed": false, "mapping": ";" },
+        "a": { "pressed": false, "mapping": "j" },
+        "b": { "pressed": false, "mapping": "k" },
+        "y": { "pressed": false, "mapping": "i" },
+        "x": { "pressed": false, "mapping": "u" },
+        "select": { "pressed": false, "mapping": "1" },
+        "start": { "pressed": false, "mapping": "tab" },
+        "up": { "pressed": false, "mapping": "w" },
+        "down": { "pressed": false, "mapping": "s" },
+        "left": { "pressed": false, "mapping": "a" },
+        "right": { "pressed": false, "mapping": "d" }
+      }
+    }
+  },
+  "router": {
+    "pathname": "/",
+    "search": "",
+    "queries": {},
+    "hash": ""
+  }
+}

@@ -1,0 +1,73 @@
+#controller1,
+#controller2,
+#controller3,
+#controller4 {
+  background-color: white;
+  margin-top: 5vmin;
+  height: 25vmin;
+  width: 40vmin;
+  position: fixed;
+  left: 4.3vmin;
+  top: 20vmin;
+  border: 01vmin solid black;
+  border-radius: 3vmin;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  z-index: 1;
+  cursor: pointer;
+  .controller-name {
+    border: 0.7vmin solid black;
+    width: 30vmin;
+    margin-left: 5vmin;
+    margin-top: 1vmin;
+    border-radius: 1vmin;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: auto;
+    font-size: 3vmin;
+    font-weight: bold;
+  }
+}
+#controller1 {
+  &.selected {
+    border-right: 1vmin solid white;
+    z-index: 10;
+  }
+}
+#controller2 {
+  left: 132.7vmin;
+  border-radius: 3vmin;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  z-index: 10;
+  &.selected {
+    border-left: 1vmin solid white;
+    z-index: 10;
+  }
+  .controller-name {
+    margin-left: 2vmin;
+  }
+}
+
+#controller3 {
+  top: 56.5vmin;
+  &.selected {
+    border-right: 1vmin solid white;
+    z-index: 10;
+  }
+}
+#controller4 {
+  left: 132.7vmin;
+  top: 56.5vmin;
+  border-radius: 3vmin;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  &.selected {
+    border-left: 1vmin solid white;
+    z-index: 10;
+  }
+  .controller-name {
+    margin-left: 2vmin;
+  }
+}
